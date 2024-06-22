@@ -1,0 +1,64 @@
+.content:hover .content-l h2,
+.content:hover .content-l span {
+    transform: translate(-180px, 10px);
+    width: 50%;
+}
+
+.content:hover .content-l span {
+    font: 400 25px 'Gochi Hand';
+    line-height: 1.5;
+    
+}
+
+.content:hover button {
+    width: 300px;
+    height: 55px;
+    top: 20%;
+    transform: rotate(180deg);
+    background-position-x: 70px;
+}
+
+.content:hover .circle {
+    width: 400px;
+    height: 400px;
+    left: 57%;
+    top: 50%;
+    border: 23px #ffffff dashed;
+
+}
+
+.content:hover::before {
+    width: 900px;
+    height: 900px;
+    left: 49%;
+    bottom: -27%;
+}
+
+.content:hover::after {
+    opacity: 0;
+}
+
+.content:hover .content-l img {
+    bottom: 0px;
+}
+
+.content:hover .content-r {
+    width: 37%;
+}
+
+.content:hover .content-l {
+    width: 63%;
+}
+
+.content:hover .img img {
+    transform: rotate(0);
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+
+}
+
+.content:hover .img {
+    padding: 10px;
+    transform: scale(1);
+}
